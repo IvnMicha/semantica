@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Propiedades cajas*/
+
+.caja {
+    margin-bottom: 10px;
+}
+.caja1 {
+    padding: 5px;
+}
+
+/*Colores cajas*/
+
+.naranja {
+    background: orange;
+    border: 2px black solid;
+}
+.amarillo {
+    background: yellow;
+}
+.blanco {
+    background: white;
+}
+
+/*Propiedades imagenes*/
+
+.imagen {
+    width: 50%;
+    border-radius: 9px;
+}
+.imagen1 {
+    width: 100%;
+    border-radius: 9px;
+}
+
+/*Botones*/
+
+.boton {
+    border: 2px yellow solid;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+.boton:hover {
+    border: 2px darkgoldenrod solid;
+    background: darkgoldenrod;
+    color: white;
+}
+.boton1 {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
